@@ -4,11 +4,69 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0px 0px;
+}
+
+/*Blue Square*/
+
+div.blue-square {
+  background: #1c5380;
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+}
+
+img.logo {
+  position: relative;
+  float: right;
+  top: 150px;
+  right: 380px;
+}
+
+img.phone {
+  position: relative;
+  float: left;
+  top: 150px;
+}
+
+/*Main Content*/
+main.container {
+    margin: 0 150px;
+    overflow: hidden;
+}
+
+/*Heading*/
+span.head {
+  color: #1c5380;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 span {
   font-weight: bolder;
+}
+
+div {
+  padding-left: 200px;
+}
+
+/*Bottom Nav*/
+nav {
+  /*text-align: center;*/
+  display: inline-block;
+}
+
+.navlink {
+  list-style: none;
+  display: inline-block;
+}
+
+span.blue {
+  color: #1c5380;
 }
