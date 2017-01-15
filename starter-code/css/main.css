@@ -61,6 +61,9 @@ span.head {
 div.desc {
   position: relative;
   float: right;
+  z-index: 3;
+  max-width: 450px;
+  top: 50px;
 }
 
 span {
